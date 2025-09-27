@@ -2,9 +2,7 @@
 
 # Overview
 
-This project focuses on classifying eye diseases using deep learning techniques. The implementation is done in Python using Jupyter Notebook. The dataset consists of labeled images of eye diseases, and the model is trained to distinguish between different types of diseases.
-Features
-
+The notebook eye_diseases_classification_4x.ipynb is designed to classify images of eyes into four different disease categories using deep learning techniques. It loads and preprocesses an eye disease dataset, applies image transformations for consistency and augmentation, and then builds a convolutional neural network (CNN) or a pre-trained transfer learning model to recognize disease patterns. The model is trained on labeled data, validated on a separate subset, and evaluated for accuracy and other performance metrics. The notebook also visualizes training progress, compares predicted results with actual labels, and may include tools like confusion matrices to highlight strengths and weaknesses of the classifier. Overall, it demonstrates the process of applying machine learning to medical image analysis, specifically for automated eye disease detection and classification.
 # Deep learning-based classification of eye diseases
 
 # Implementation of CNN architectures
